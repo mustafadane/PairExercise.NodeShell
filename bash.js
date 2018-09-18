@@ -18,5 +18,5 @@ process.stdin.on('data', (data) => {
         process.stdout.write('You typed: ' + cmd);
     }
 
-    setTimeout(function() {process.stdout.write('\ntype somthing else > ')}, 1000);
+    global.setTimeout(function() {process.stdout.write('\ntype somthing else > ')}, 1000);
 })
